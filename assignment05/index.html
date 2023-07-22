@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        h1 {margin-bottom: 30px;}
+        label {font-weight: bold;}
+        input, select {margin-bottom: 10px;
+        margin-right:auto;
+    }
+        form {width: 30%; padding: 20px;
+            background-color:rgb(235, 131, 152);
+        border: solid greenyellow 3px; margin-top: 60px}
+
+    </style>
+</head>
+<body>
+<form id="formInfo">
+    
+    <label for="empid">8-Digit Employee Id </label><br>
+    <input type="text" id="empid"   max="8" required ><br>
+     <label for="name">Name</label><br>
+    <input type="text" id="name" placeholder="Name"><br>
+    
+    <label for="ext">4-Digit-Extension</label><br>
+     <input type="text" id="ext"  max="4" required><br>
+     <label for="mail">Email</label><br>
+     <input type="text" id="mail" required><br>
+     
+     <label for="dept">Department</label><br>
+     <select id="dept">
+        <option>Adminstrative</option>
+        <option>Enginnering</option>
+        <option>Executive</option>
+        <option>Marketing</option>
+        <option>Quality Assurance</option>
+        <option>Sales</option>
+     </select>
+     <br> 
+    
+    <button id="addemp">Submit</button>
+  </form>
+  
+  <script src="js/script.js">
+    
+  </script>
+  </body>
+  </html>
